@@ -2,7 +2,7 @@
     "AWSTemplateFormatVersion" : "2010-09-09",
     "Mappings" : {
         "RegionMap" : {
-			"us-west-2" : {"AMI" : "ami-f0091d91"},
+			"us-west-2" : { "AMI" : "ami-d93622b8" },
             "us-east-1" : { "AMI" : "ami-76f0061f" },
             "us-west-1" : { "AMI" : "ami-655a0a20" },
             "eu-west-1" : { "AMI" : "ami-7fd4e10b" },
