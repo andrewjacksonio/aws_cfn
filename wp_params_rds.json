@@ -1,0 +1,19 @@
+[
+  {
+    "ParameterKey": "KeyName",
+    "ParameterValue": "NAT"
+  },
+  {
+    "ParameterKey": "OperatorEMail",
+    "ParameterValue": "admin@orbitalmedia.com.au"
+  },
+  {
+    "ParameterKey": "DBUser",
+    "ParameterValue": "B12341234B"
+  },
+  {
+    "ParameterKey": "DBPassword",
+    "ParameterValue": "A12341234F"
+  }
+
+]

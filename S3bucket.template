@@ -1,0 +1,20 @@
+{
+	"AWSTemplateFormatVersion": "2010-09-09",
+	"Description": "Creating an S3 bucket with CloudFormation",
+	"Parameters": {
+		"S3BucketName": {
+			"Type": "String",
+			"Description": "Please enter a bucket name"
+		}
+	},
+	"Resources": {
+		"S3Bucket": {
+			"Type": "AWS::S3::Bucket",
+			"Properties": {
+				"BucketName": {
+					"Ref": "S3BucketName"
+				}
+			}
+		}
+	}
+}
